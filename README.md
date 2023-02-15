@@ -33,7 +33,7 @@ Microservice Orchestration
 - Gateway & Service Router 설치
 - Autoscale (HPA)
 
-# fd-0215 -order 만 정상 작동중입니다.
+# Food Delivery-0215
 ![image](https://user-images.githubusercontent.com/119825867/218976011-4f825bc6-16d7-4939-a837-076a4590c7de.png)
 
 1. Saga (Pub / Sub) 아래는 PUB/SUB 구현된 코드

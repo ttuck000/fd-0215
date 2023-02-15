@@ -44,6 +44,14 @@ Microservice Orchestration
 ![image](https://user-images.githubusercontent.com/119825867/218938358-918b7398-0a22-43ba-ba0b-5060476ed2c0.png)
 
 3. Compensation / Correlation
+주문이 취소될 때 Compensation이 발생한다. Order 클래스에서 @PreRemove 어노테이션이 적용된 onPrePersist 메소드에서 구현한다.
+주문취소 이벤트 OrderCanceled를 publish하면서 다른 서비스인 store에서 updateStatus 정책을 통해 상태를 변경할 수 있다.
+서로 다른 마이크로서비스 간 데이터 일관성 처리를 위해 사용하는 correlation key에 대해 주문의 아이디인 orderId를 사용한다.
+order 서비스의 Order.java
+ ![image](https://user-images.githubusercontent.com/119825867/218981168-01a4d6cd-a37b-470c-bcc3-a70a2d3aad53.png)
+
+store 서비스의 PolicyHandler.java
+![image](https://user-images.githubusercontent.com/119825867/218981224-f6ee5149-3420-4813-bedd-1c13c9035580.png)
 
 4. Deploy to EKS Cluster
 ![image](https://user-images.githubusercontent.com/119825867/218954221-b9bb91a3-9ac3-4be8-a433-c3b344697302.png)

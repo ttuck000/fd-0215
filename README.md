@@ -34,6 +34,8 @@ Microservice Orchestration
 - Autoscale (HPA)
 
 # fd-0215
+![image](https://user-images.githubusercontent.com/119825867/218976011-4f825bc6-16d7-4939-a837-076a4590c7de.png)
+
 1. Saga (Pub / Sub) 아래는 PUB/SUB 구현된 코드
 ![image](https://user-images.githubusercontent.com/119825867/218937778-1d5ad929-7dd9-4c39-a806-6f8271cdee3e.png)
 
@@ -41,7 +43,7 @@ Microservice Orchestration
 ![image](https://user-images.githubusercontent.com/119825867/218938345-bb981794-361b-4f4f-9681-68a38ff72be7.png)
 ![image](https://user-images.githubusercontent.com/119825867/218938358-918b7398-0a22-43ba-ba0b-5060476ed2c0.png)
 
-
+3. Compensation / Correlation
 
 4. Deploy to EKS Cluster
 ![image](https://user-images.githubusercontent.com/119825867/218954221-b9bb91a3-9ac3-4be8-a433-c3b344697302.png)
@@ -50,6 +52,7 @@ Microservice Orchestration
 ![image](https://user-images.githubusercontent.com/119825867/218955098-27916b2c-ca66-4bea-b72f-1ef4deeb212a.png)
 ![image](https://user-images.githubusercontent.com/119825867/218956134-8a68c992-b37c-401a-bde3-ea3753dff044.png)
 
+5. Gateway & Service Router 설치
 
 6. Autoscale (HPA)
 

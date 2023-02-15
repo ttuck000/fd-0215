@@ -42,6 +42,7 @@ Microservice Orchestration
 ![image](https://user-images.githubusercontent.com/119825867/218938358-918b7398-0a22-43ba-ba0b-5060476ed2c0.png)
 
 
+
 4. Deploy to EKS Cluster
 ![image](https://user-images.githubusercontent.com/119825867/218954221-b9bb91a3-9ac3-4be8-a433-c3b344697302.png)
 ![image](https://user-images.githubusercontent.com/119825867/218954422-a2498b7a-38bf-454e-a0ca-ac3bc28ca9d1.png)
@@ -51,4 +52,5 @@ Microservice Orchestration
 
 
 6. Autoscale (HPA)
+
 ![image](https://user-images.githubusercontent.com/119825867/218957200-6c921ea5-1df7-4ab2-834e-9346ff6ebfe3.png)

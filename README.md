@@ -40,3 +40,15 @@ Microservice Orchestration
 2. CQRS 아래는 CQRS 구현된 코드
 ![image](https://user-images.githubusercontent.com/119825867/218938345-bb981794-361b-4f4f-9681-68a38ff72be7.png)
 ![image](https://user-images.githubusercontent.com/119825867/218938358-918b7398-0a22-43ba-ba0b-5060476ed2c0.png)
+
+
+4. Deploy to EKS Cluster
+![image](https://user-images.githubusercontent.com/119825867/218954221-b9bb91a3-9ac3-4be8-a433-c3b344697302.png)
+![image](https://user-images.githubusercontent.com/119825867/218954422-a2498b7a-38bf-454e-a0ca-ac3bc28ca9d1.png)
+![image](https://user-images.githubusercontent.com/119825867/218954769-2e0ceaa5-829e-446e-8f61-3ef116d2fcf9.png)
+![image](https://user-images.githubusercontent.com/119825867/218955098-27916b2c-ca66-4bea-b72f-1ef4deeb212a.png)
+![image](https://user-images.githubusercontent.com/119825867/218956134-8a68c992-b37c-401a-bde3-ea3753dff044.png)
+
+
+6. Autoscale (HPA)
+![image](https://user-images.githubusercontent.com/119825867/218957200-6c921ea5-1df7-4ab2-834e-9346ff6ebfe3.png)
